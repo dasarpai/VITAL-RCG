@@ -22,6 +22,12 @@ Organisations do not collapse suddenly. They weaken through correlated drifts. V
 
 -----
 
+## Product implementation (software)
+
+For the **multi-tenant operational product** (PostgreSQL, APIs, dashboards for executives and developers), see **[docs/product/roadmap.md](docs/product/roadmap.md)**. That document is **canonical** when you open this repo in a new environment (for example under WSL or a fresh Cursor project) and prior chat history is unavailable.
+
+-----
+
 ## Core Architecture
 
 |Dimension                     |Detail                                                                                              |
@@ -73,24 +79,26 @@ Structure is irrelevant to diagnosis. Structure matters only at the governance l
 
 ## Documents in This Repository
 
+Human-readable specifications live as **Markdown** under [`docs/`](docs/). For the documents that were converted from Word, the **original `.docx` files** are preserved under [`org-docs/`](org-docs/) for archival and round-trip editing.
+
 ### Foundation Documents
 
 |Document                                    |Description                                                                          |
 |--------------------------------------------|-------------------------------------------------------------------------------------|
-|`VITAL_Framework_Description_V7.docx`       |Primary framework document — what VITAL monitors and why. For adopting organisations.|
-|`VITAL_ExecutiveSummary_V5.docx`            |Technical and strategic overview — for leadership and research audiences.            |
-|`VITAL_ImplementationGuide_PreFinal_V3.docx`|Deployment guide — how VITAL is installed, configured, and operated.                 |
-|`VITAL_OnePager.docx`                       |Single-page summary for introductory conversations.                                  |
-|`VITAL_CEOs_Brief_V5.docx`                  |CXO-facing concept note — framed for leadership decision-making.                     |
+|[`docs/VITAL_Framework_Description_V7.md`](docs/VITAL_Framework_Description_V7.md)|Primary framework document — what VITAL monitors and why. For adopting organisations.|
+|[`docs/VITAL_ExecutiveSummary_V5.md`](docs/VITAL_ExecutiveSummary_V5.md)|Technical and strategic overview — for leadership and research audiences.            |
+|`VITAL_ImplementationGuide_PreFinal_V3.docx`|Deployment guide — how VITAL is installed, configured, and operated. *(Not yet added to this repository.)*|
+|`VITAL_OnePager.docx`                       |Single-page summary for introductory conversations. *(Not yet added to this repository.)*|
+|[`docs/VITAL_CEOs_Brief_V5.md`](docs/VITAL_CEOs_Brief_V5.md)|CXO-facing concept note — framed for leadership decision-making.                     |
 
 ### Signal Architecture
 
 |Document                                      |Description                                                                 |
 |----------------------------------------------|----------------------------------------------------------------------------|
-|`VITAL_Aggregation_AlertCriteria_v2.docx`     |Aggregation logic and alert threshold specifications.                       |
-|`VITAL_CF_Signal_Map_v1.docx`                 |Signal relationships, dependencies, and alert routing across Core Functions.|
-|`VITAL_Signal_Discovery_Questionnaire_V3.docx`|Master questionnaire — all 22 functions.                                    |
-|`VITAL_Questionnaire_Spec_Framework_V1.docx`  |Design specification governing all questionnaire construction.              |
+|`VITAL_Aggregation_AlertCriteria_v2.docx`     |Aggregation logic and alert threshold specifications. *(Not yet added.)*                       |
+|`VITAL_CF_Signal_Map_v1.docx`                 |Signal relationships, dependencies, and alert routing across Core Functions. *(Not yet added.)*|
+|`VITAL_Signal_Discovery_Questionnaire_V3.docx`|Master questionnaire — all 22 functions. *(Not yet added.)*                                    |
+|`VITAL_Questionnaire_Spec_Framework_V1.docx`  |Design specification governing all questionnaire construction. *(Not yet added.)*              |
 
 ### Function-Level Questionnaires (SDQ series)
 
@@ -102,9 +110,9 @@ Individual Signal Discovery Questionnaires for each of the 22 functions — cove
 
 |Document                         |Description                                                     |
 |---------------------------------|----------------------------------------------------------------|
-|`OrgPulse_Concept_v2.docx`       |VITAL positioned for Indian Micro, Small and Medium Enterprises.|
-|`OrgPulse_CXO_Brief_v2_2.docx`   |CXO brief for Indian MSME context.                              |
-|`OrgPulse_Executive_Summary.docx`|Executive summary for OrgPulse deployment.                      |
+|`OrgPulse_Concept_v2.docx`       |VITAL positioned for Indian Micro, Small and Medium Enterprises. *(Not yet added.)*|
+|`OrgPulse_CXO_Brief_v2_2.docx`   |CXO brief for Indian MSME context. *(Not yet added.)*                              |
+|`OrgPulse_Executive_Summary.docx`|Executive summary for OrgPulse deployment. *(Not yet added.)*                      |
 
 -----
 
